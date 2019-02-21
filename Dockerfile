@@ -1,4 +1,4 @@
-FROM php:7.2-fpm-alpine
+FROM php:7.3-fpm-alpine
 ENV LD_PRELOAD /usr/lib/preloadable_libiconv.so php
 
 RUN apk --no-cache update \
